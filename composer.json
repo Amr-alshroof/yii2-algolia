@@ -18,7 +18,7 @@
 
   "require": {
     "yiisoft/yii2": "*",
-    "algolia/algoliasearch-client-php": "*"
+    "algolia/algoliasearch-client-php": "^1.13"
   },
   "autoload": {
     "psr-4": {
