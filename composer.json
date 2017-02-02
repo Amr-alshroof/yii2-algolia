@@ -1,0 +1,29 @@
+{
+  "name": "opensooq/yii2-algolia",
+  "description": "This extension will be used as wrapper for algolia easy to do for the Yii2 framework",
+  "type": "yii2-extension",
+  "minimum-stability": "stable",
+  "keywords": ["yii2","extension","algolia","nosql","search"],
+  "license": "Apache-2.0",
+  "support": {
+    "issues": "https://github.com/Amr-alshroof/yii2-algolia/issues?state=open",
+    "source": "https://github.com/Amr-alshroof/yii2-algolia/"
+  },
+  "authors": [
+    {
+      "name": "Amr Alshroof",
+      "email": "amr.Alshroof@gmail.com"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "*",
+    "algolia/algoliasearch-client-php": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "opensooq\\algolia\\": ""
+    }
+  }
+}
+
